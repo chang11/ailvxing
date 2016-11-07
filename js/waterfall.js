@@ -41,7 +41,7 @@ $(function () {
 		});
 		container.find('ul').css('height',maxCol + margin);
 	}
-	// waterFall('.waterfall','li',35);
+	waterFall('.waterfall','li',35);
 
 	// 鼠标滑过改变显不状态
 	function onHover(obj) {
@@ -71,6 +71,6 @@ $(function () {
 		});	
 	}
 
-	//fixedNav($('.listnav'),70);
+	fixedNav($('.listnav'),70);
 
 });
